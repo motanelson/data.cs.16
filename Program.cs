@@ -31,7 +31,7 @@
                 {
                     
                     
-                    s = (Math.Cos((double)i * d2)).ToString();
+                    s = (Math.Cos(((double)i) * d2)).ToString();
                     s = s.Replace(",", ".");
                     if (s.Length > 6)
                     {
@@ -47,7 +47,7 @@
 
                     }
                     
-                    s = (Math.Sin((double)i * d2)).ToString();
+                    s = (Math.Sin(((double)i) * d2)).ToString();
                     s = s.Replace(",", ".");
                     if (s.Length > 6)
                     {
